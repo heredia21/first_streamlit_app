@@ -45,7 +45,7 @@ streamlit.stop()
 
 
 
-streamlit.header("The ruit load list contains:")
+streamlit.header("The fruit load list contains:")
 #Snowflae-related functions
 def get_fruit_load_list():
      with my_cnx.cursor() as my_curr:
