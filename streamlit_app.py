@@ -49,4 +49,4 @@ import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/")
 
 
-my.cur.execute("insert into fruit_load_list values from ('streamlit')")
+my_cur.execute("insert into fruit_load_list values from ('streamlit')")
